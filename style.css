@@ -1,0 +1,74 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+#search {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#search-input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#search-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+#search-button:hover {
+  background-color: #0069d9;
+}
+
+#results {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.movie {
+  width: 200px;
+  margin: 10px;
+}
+
+.movie img {
+  width: 100%;
+}
+
+#wishlist {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.wishlist-movie {
+  width: 200px;
+  margin: 10px;
+}
+
+.wishlist-movie img {
+  width: 100%;
+}
+
+.wishlist-movie button {
+  padding: 10px;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.wishlist-movie button:hover {
+  background-color: #c82333;
+}
